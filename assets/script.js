@@ -23,7 +23,7 @@ generateBtn.addEventListener("click", function(){
   // Alert message if the user input for password length is not a number
   if (isNaN(passLength)){
     alert("Please provide the input as a number");
-    return false;  
+    return '';  
   }
 
   else if(passLength>=8 && passLength<=128){
