@@ -6,4 +6,5 @@
 
 
 ## B. webpage screenshot
-      
+      ![Javascript-generated-password-screenshot](https://user-images.githubusercontent.com/79011370/123196469-930e1780-d4dc-11eb-9b62-75ef5f4737ca.JPG)
+
