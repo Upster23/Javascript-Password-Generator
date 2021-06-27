@@ -23,7 +23,7 @@ generateBtn.addEventListener("click", function(){
   // Alert message if the user input for password length is not a number
   if (isNaN(passLength)){
     alert("Please provide the input as a number");
-    return '';  
+    return false;  
   }
 
   else if(passLength>=8 && passLength<=128){
@@ -43,6 +43,7 @@ generateBtn.addEventListener("click", function(){
     // Alert message if the user input for password length is not between 8 to 128 characters
     else {
     window.alert('Password must be from 8 to 128 characters long');
+    return false;
   }
 
 // Store the generate password function into the textarea element in the html document
